@@ -29,6 +29,13 @@ const createMeal = (meal) => {
 	wrapper.innerHTML = `
     <div class="meal__row">
         <div class="meal__info info">
+					${
+						meal['strMeal']
+							? `<h2 class="recipe__title-phone">
+            ${meal['strMeal']}
+              </h2>`
+							: ''
+					}
           <div class="info__image">
             <img src="${meal['strMealThumb']}" alt="">
           </div>
