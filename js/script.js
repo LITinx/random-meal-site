@@ -101,7 +101,7 @@ const createMeal = (meal) => {
         </h3>
         <iframe src="https://www.youtube.com/embed/${meal['strYoutube'].slice(
 					-11,
-				)}" width="620" height="400" frameborder="0"></iframe>
+				)}" width="620" height="400" frameborder="0" class="video__frame"></iframe>
       </div>
   `
 }
